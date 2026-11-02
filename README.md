@@ -43,7 +43,7 @@ Per-class IoU of the best model:
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 0.91 | 0.84 | 0.84 | 0.79 | 0.66 | 0.40 | 0.36 | 0.13 | 0.06 |
 
-Large, well-represented regions are segmented reliably. Puddles and low vegetation remain the open problem: they are rare, small and visually close to neighbouring classes, which is what the class weighting and the targeted augmentation were aimed at.
+Large, well-represented regions are segmented reliably. Puddles and low vegetation remain the open problem: they are rare and occupy small regions of each image, which is what the class weighting and the targeted augmentation were aimed at.
 
 ## Notes on evaluation
 
